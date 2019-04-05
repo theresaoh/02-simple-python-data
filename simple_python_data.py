@@ -10,7 +10,7 @@ def calculate_area_of_square(side):
 
 def calculate_total_plus_tip_per_person(total_bill, tip_percent, number_of_people):
     ## Todo: update `None` to contain the formula for `total_plus_tip_` and `total_plus_tip_per_person`.
-    total_plus_tip = total_bill + (total_bill * tip_percent)
+    total_plus_tip = total_bill + tip_percent
     total_plus_tip_per_person = total_plus_tip / number_of_people
     return total_plus_tip_per_person
 
